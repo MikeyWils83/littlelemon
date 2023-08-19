@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Home: View {
-    
+    @ObservedObject var viewModel = MenuBreakdownViewModel()
     
     
     
@@ -19,6 +19,7 @@ struct Home: View {
             HeroView()
             MenuBreakdownView()
             Dishes()
+                .environmentObject(viewModel)
         })
         .frame(height: 646)
         

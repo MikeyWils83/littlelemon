@@ -11,6 +11,7 @@ let kFirstName = "first name key"
 let kLastName = "last name key"
 let kEmail = "email key"
 let kPhoneNumber = "phone number key"
+let kIsLoggedIn = "kIsLoggedIn"
 
 
 
@@ -19,6 +20,7 @@ struct OnboardingCard2: View {
     @State var lastName = ""
     @State var eMail = ""
     @State var phoneNumber = ""
+    @State var isLoggedIn = false
     
     @State var showAlert = false
     
@@ -76,7 +78,7 @@ struct OnboardingCard2: View {
                                 UserDefaults.standard.set(firstName, forKey: kFirstName)
                                 UserDefaults.standard.set(lastName, forKey: kLastName)
                                 UserDefaults.standard.set(eMail, forKey: kEmail)
-                                reg.state = true
+                                UserDefaults.standard.set(true, forKey: kIsLoggedIn)
                                 
                             } else {
                                 showAlert = true

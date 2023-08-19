@@ -34,6 +34,7 @@
 		0AB680882A88DAB7001742E0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB680872A88DAB7001742E0 /* Theme.swift */; };
 		0AB6808A2A88E63D001742E0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB680892A88E63D001742E0 /* ProfileView.swift */; };
 		0AB6808C2A89034D001742E0 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB6808B2A89034D001742E0 /* OnBoarding.swift */; };
+		0AB680922A90D5FB001742E0 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB680912A90D5FB001742E0 /* UserProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		0AB680872A88DAB7001742E0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		0AB680892A88E63D001742E0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		0AB6808B2A89034D001742E0 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		0AB680912A90D5FB001742E0 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				0A7C66A92A7FA6D2000C4638 /* LittleLemonCapstoneMWApp.swift */,
 				0A7C66AB2A7FA6D2000C4638 /* ContentView.swift */,
 				0AB680892A88E63D001742E0 /* ProfileView.swift */,
+				0AB680912A90D5FB001742E0 /* UserProfile.swift */,
 				0A7C66BC2A7FA837000C4638 /* Home.swift */,
 				0A7C66C02A7FB04C000C4638 /* OnboardingCard2.swift */,
 				0AB6808B2A89034D001742E0 /* OnBoarding.swift */,
@@ -254,6 +257,7 @@
 				0AB6807D2A87605A001742E0 /* Dish+CoreDataProperties.swift in Sources */,
 				0A686B3C2A82816E00F7BEE0 /* Dishes.swift in Sources */,
 				0A7C66BD2A7FA837000C4638 /* Home.swift in Sources */,
+				0AB680922A90D5FB001742E0 /* UserProfile.swift in Sources */,
 				0AB6808A2A88E63D001742E0 /* ProfileView.swift in Sources */,
 				0A686B302A82596500F7BEE0 /* Dish+Extension.swift in Sources */,
 				0AB6808C2A89034D001742E0 /* OnBoarding.swift in Sources */,

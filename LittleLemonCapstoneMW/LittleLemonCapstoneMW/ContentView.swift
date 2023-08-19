@@ -46,7 +46,7 @@ struct ContentView: View {
                 .tabItem({
                     Label("Menu", systemImage: "menucard")
                 })
-                ProfileView()
+                UserProfile()
                     .tabItem({
                         Label("Profile", systemImage: "square.and.pencil")
                     })
